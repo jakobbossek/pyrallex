@@ -1,7 +1,7 @@
-# jobkit
+# pyrallex
 
-Do you have many inherently parallel, independent computing jobs as they arise, e.g., in benchmarking of stochastic optimisation algorithms? Then *jobkit* might be worth to consider.
-*jobkit* is a lightweight Python library for **managing and executing parameterisable, inherently parallel computing jobs**.
+Do you have many inherently parallel, independent computing jobs as they arise, e.g., in benchmarking of stochastic optimisation algorithms? Then *pyrallex* might be worth to consider.
+*pyrallex* is a lightweight Python library for **managing and executing parameterisable, inherently parallel computing jobs**.
 
 The typical workflow is as follows:
 
@@ -15,7 +15,7 @@ The typical workflow is as follows:
 ## Key Features
 
 * **Lightweight:** Focuses on the essential functionality without unnecessary complexity.
-* **Extensible:** Supports multiple parallelisation backends. Currently, the library includes a simple sequential runner (no parallelelisation) and a multi-core implementation based on the [joblib library](https://pypi.org/project/joblib/). Additional backends can be easily implemented.
+* **Extensible:** Supports multiple parallelisation backends. Currently, the library includes a simple sequential runner (no parallelelisation) and a multi-core implementation based on the [pyrallex library](https://pypi.org/project/pyrallex/). Additional backends can be easily implemented.
 
 ## Installation
 
@@ -40,14 +40,14 @@ import random
 import pandas as pd
 import time
 
-from jobkit import Registry, JoblibRunnerBackend
+from pyrallex import Registry, pyrallexRunnerBackend
 
 if __name__ == "__main__":
     # Registry folder in the file system 
-    path = "jobkit-registry"
+    path = "pyrallex-registry"
 
     # Build the registry
-    reg = Registry(path = path, overwrite = True, backend = JoblibRunnerBackend(ncores = os.cpu_count() - 1))
+    reg = Registry(path = path, overwrite = True, backend = pyrallexRunnerBackend(ncores = os.cpu_count() - 1))
 
     # Runner function.
     # Expects the job's ID and a dictionary of parameters.

@@ -1,6 +1,6 @@
 # Project-specific files
 .DS_Store
-jobkit-registry/
+pyrallex-registry/
 
 
 # Byte-compiled / optimized / DLL files

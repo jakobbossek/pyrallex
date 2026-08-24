@@ -65,7 +65,7 @@ class SequentialRunnerBackend(RunnerBackend):
 
 class JoblibRunnerBackend(RunnerBackend):
     """
-    Parallelisation backend based on the joblib Python library.
+    Parallelisation backend based on the pyrallex Python library.
 
     Attributes:
         ncores (int): Number of cores to use for parallelisation.
@@ -75,7 +75,7 @@ class JoblibRunnerBackend(RunnerBackend):
             self,
             ncores: int = os.cpu_count() - 1):
         """
-        Initialise the Joblib backend.
+        Initialise the pyrallex backend.
 
         Args:
             ncores (int): ncores (int): Number of cores to use for parallelisation. Defaults to one less than the available number of cores on your machine.

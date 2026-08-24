@@ -11,6 +11,7 @@ class JobStatus(str, Enum):
     RUNNING = "running"
     DONE = "done"
     FAILED = "failed"
+    
 class Job:
     """
     A computational job managed by a :class:`Registry`.

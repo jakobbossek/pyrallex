@@ -1,4 +1,4 @@
-name: jobkit
+name: pyrallex
 channels:
   - conda-forge
   - defaults

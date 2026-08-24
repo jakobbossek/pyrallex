@@ -2,7 +2,7 @@ import random
 import pandas as pd
 import os
 
-from jobkit import Registry, JoblibRunnerBackend
+from pyrallex import Registry, JoblibRunnerBackend
 
 # BENCHMARKING STUDY
 # ===
@@ -112,7 +112,7 @@ def ea(fun, n: int, opt: int, maxevals: int) -> dict[str, any]:
 
 if __name__ == "__main__":
     # Registry folder in the file system 
-    path = "jobkit-registry"
+    path = "pyrallex-registry"
 
     # Build the registry
     reg = Registry(path = path, overwrite = True, backend = JoblibRunnerBackend(ncores = os.cpu_count() - 1))

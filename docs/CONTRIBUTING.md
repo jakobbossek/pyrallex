@@ -5,7 +5,7 @@ Contributions to the project are always welcome!
 If you encounter problems using this software, e.g., bugs or
 insufficient/misleading documentation, or you simply have a question,
 feel free to open an issue in the [issue
-tracker](https://github.com/jakobbossek/jobkit/issues). In order to
+tracker](https://github.com/jakobbossek/pyrallex/issues). In order to
 reproduce potential problems, please provide a minimal and reproducible
 code example.
 

@@ -4,7 +4,7 @@ content_style: lilac
 dark_mode_toggle: true
 
 # Branding
-display_name: jobkit
+display_name: pyrallex
 
 # Author Information
 authors:
@@ -18,7 +18,7 @@ authors:
     image: https://github.com/jakobbossek.png  # Avatar (GitHub URL or local path)
 
 # GitHub integration
-repo: https://github.com/jakobbossek/jobkit # Optional override
+repo: https://github.com/jakobbossek/pyrallex # Optional override
 
 # Docstring Parser
 parser: google
@@ -34,7 +34,7 @@ dynamic: true
 # ------------------
 # GitHub repository URL override (e.g. "https://github.com/owner/repo").
 # repo: null
-repo: https://github.com/jakobbossek/jobkit
+repo: https://github.com/jakobbossek/pyrallex
 github_style: widget
 
 # API Reference Structure
@@ -42,7 +42,7 @@ reference:
   - title: Classes
     desc: Main classes provided by the package
     contents:
-      - RunnerBackend.JoblibRunnerBackend
+      - RunnerBackend.pyrallexRunnerBackend
       - RunnerBackend.RunnerBackend
       - RunnerBackend.SequentialRunnerBackend
       - Registry.Registry

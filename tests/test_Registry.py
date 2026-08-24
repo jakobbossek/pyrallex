@@ -1,5 +1,5 @@
-from jobkit import Registry
-from jobkit import SequentialRunnerBackend, JoblibRunnerBackend
+from pyrallex import Registry
+from pyrallex import SequentialRunnerBackend, JoblibRunnerBackend
 
 import os
 import shutil
@@ -9,7 +9,7 @@ import pandas as pd
 # NOTE: if tests fail use pip install -e . to install the package in 'editable' mode
 
 def test_registry():
-    path = "jobkit-unit-test"
+    path = "pyrallex-unit-test"
 
     reg = Registry(path = path, overwrite = True, backend = SequentialRunnerBackend())
 

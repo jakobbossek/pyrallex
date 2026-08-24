@@ -7,8 +7,8 @@ from timeit import default_timer as timer
 from collections.abc import Callable
 from typing import Self
 
-from jobkit.Job import Job
-from jobkit.RunnerBackend import *
+from pyrallex.Job import Job
+from pyrallex.RunnerBackend import *
 
 class Registry:
     """
@@ -593,7 +593,7 @@ class Registry:
             Human-readbale string representation.
         """
         return (
-            "JOBKIT REGISTRY\n"
+            "PYRALLEX REGISTRY\n"
             f"Path: {self.path!r} ({"read-only" if self.readonly else "writable"})\n"
             f"Backend: {self.backend!r}\n\n"
             f"STATE OF JOBS\n"
