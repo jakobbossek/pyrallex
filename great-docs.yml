@@ -42,7 +42,7 @@ reference:
   - title: Classes
     desc: Main classes provided by the package
     contents:
-      - RunnerBackend.pyrallexRunnerBackend
+      - RunnerBackend.JoblibRunnerBackend
       - RunnerBackend.RunnerBackend
       - RunnerBackend.SequentialRunnerBackend
       - Registry.Registry

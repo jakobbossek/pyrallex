@@ -20,12 +20,17 @@ jobs:
         uses: actions/setup-python@v4
 
       - name: Install dependencies
-        run: pip install pytest pytest-cov
+        run: {
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
 
       - name: Run tests
-        run: pytest --cov --cov-branch --cov-report=xml
+        run: |
+          pytest --cov=pyrallex --cov-branch --cov-report=xml
 
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+
+

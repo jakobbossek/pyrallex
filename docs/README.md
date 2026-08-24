@@ -51,14 +51,14 @@ import random
 import pandas as pd
 import time
 
-from pyrallex import Registry, pyrallexRunnerBackend
+from pyrallex import Registry, JoblibRunnerBackend
 
 if __name__ == "__main__":
     # Registry folder in the file system 
     path = "pyrallex-registry"
 
     # Build the registry
-    reg = Registry(path = path, overwrite = True, backend = pyrallexRunnerBackend(ncores = os.cpu_count() - 1))
+    reg = Registry(path = path, overwrite = True, backend = JoblibRunnerBackend(ncores = os.cpu_count() - 1))
 
     # Runner function.
     # Expects the job's ID and a dictionary of parameters.
