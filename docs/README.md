@@ -6,10 +6,9 @@
 [![readthedocs](https://img.shields.io/badge/docs-stable-brightgreen.svg?style=flat)](https://pyrallex.readthedocs.io/en/stable/?badge=stable)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/pyrallex/pyrallex/branch/master/graph/badge.svg)](https://codecov.io/gh/pyrallex/pyrallex)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 
-<img src="images/pyrallex-logo-512x512.png" width="30%" height="30%" alt="pyrallex python package logo" style="float: right; margin-left: 15px;">
+<img src="images/pyrallex-logo-512x512.png" width="30%" height="30%" alt="pyrallex python package logo" align="right">
 Do you have many inherently parallel, independent computing jobs as they arise, e.g., in benchmarking of stochastic optimisation algorithms? Then *pyrallex* might be worth to consider.
 *pyrallex* is a lightweight Python library for **managing and executing parameterisable, inherently parallel computing jobs**.
 
