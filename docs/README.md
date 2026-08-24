@@ -1,5 +1,3 @@
-![pyrallex logo](images/pyrallex-logo-512x512.png)
-
 
 # pyrallex
 
@@ -11,6 +9,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 
+<img src="images/pyrallex-logo-512x512.png" width="30%" height="30%" alt="pyrallex python package logo" style="float: right; margin-left: 15px;">
 Do you have many inherently parallel, independent computing jobs as they arise, e.g., in benchmarking of stochastic optimisation algorithms? Then *pyrallex* might be worth to consider.
 *pyrallex* is a lightweight Python library for **managing and executing parameterisable, inherently parallel computing jobs**.
 
