@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=75"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = "pyrallex"
-version = "1.0.0"
+version = "1.0.1"
 description = "A small package for PARALLel EXecution and management of computing jobs using different parallelisation backends."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -16,14 +16,12 @@ authors = [
     { name = "Jakob Bossek", email = "j.bossek@gmail.com" }
 ]
 
-maintainers = [
-{
-    name = "Jakob Bossek",
-    email = "j.bossek@gmail.com"
-}
+keywords = [
+    "parallelisation",
+    "benchmarking",
+    "jobs",
+    "job-management"
 ]
-
-keywords = ["parallelisation", "benchmarking", "jobs", "job-management"]
 
 dependencies = [
     "joblib>=1.5"
