@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling>=1.27"]
 build-backend = "hatchling.build"
 
 [project]
@@ -49,6 +49,3 @@ dev = [
     "pytest>=9",
     "pytest-cov>=7",
 ]
-
-[tool.setuptools.packages.find]
-exclude = ["tests", "tests.*"]
