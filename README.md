@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/pyrallex/pyrallex/branch/master/graph/badge.svg)](https://app.codecov.io/github/jakobbossek/pyrallex)
 
-<img src="images/pyrallex-logo-512x512.png" width="30%" height="30%" alt="pyrallex python package logo" align="right">
+<img src="https://github.com/jakobbossek/pyrallex/blob/main/docs/images/pyrallex-logo-512x512.png" width="30%" height="30%" alt="pyrallex python package logo" align="right">
 
 Do you have many inherently parallel, independent computing jobs as they arise, e.g., in benchmarking of stochastic optimisation algorithms? Then **pyrallex** might be worth to consider.
 **pyrallex** is a lightweight Python library for **managing and executing parameterisable, inherently parallel computing jobs**.
