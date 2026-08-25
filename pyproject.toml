@@ -4,29 +4,24 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyrallex"
-version = "1.0.1"
+version = "1.0.0"
 description = "A small package for PARALLel EXecution and management of computing jobs using different parallelisation backends."
-readme = "README.md"
-requires-python = ">=3.12"
-
-license = "MIT"
-license-files = ["LICEN[CS]E*"]
-
 authors = [
     { name = "Jakob Bossek", email = "j.bossek@gmail.com" }
 ]
-
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
 keywords = [
     "parallelisation",
     "benchmarking",
     "jobs",
     "job-management"
 ]
-
 dependencies = [
     "joblib>=1.5"
 ]
-
 classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
@@ -37,7 +32,6 @@ classifiers = [
     "Topic :: Scientific/Engineering",
     "Topic :: Scientific/Engineering :: Mathematics",
 ]
-
 [project.urls]
 Homepage = "https://github.com/jakobbossek/pyrallex"
 Documentation = "https://jakobbossek.github.io/pyrallex/"

@@ -8,8 +8,9 @@
 [![codecov](https://codecov.io/gh/pyrallex/pyrallex/branch/master/graph/badge.svg)](https://app.codecov.io/github/jakobbossek/pyrallex)
 
 <img src="images/pyrallex-logo-512x512.png" width="30%" height="30%" alt="pyrallex python package logo" align="right">
-Do you have many inherently parallel, independent computing jobs as they arise, e.g., in benchmarking of stochastic optimisation algorithms? Then *pyrallex* might be worth to consider.
-*pyrallex* is a lightweight Python library for **managing and executing parameterisable, inherently parallel computing jobs**.
+
+Do you have many inherently parallel, independent computing jobs as they arise, e.g., in benchmarking of stochastic optimisation algorithms? Then **pyrallex** might be worth to consider.
+**pyrallex** is a lightweight Python library for **managing and executing parameterisable, inherently parallel computing jobs**.
 
 The typical workflow is as follows:
 
@@ -75,7 +76,7 @@ if __name__ == "__main__":
     print(reg)
 
     # Run all jobs
-    reg.run(my_runner, batchsize = 10)
+    reg.pyrallex(my_runner, batchsize = 10)
 
     # Get information on the status
     print(reg.get_failed())

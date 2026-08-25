@@ -137,7 +137,7 @@ if __name__ == "__main__":
     print(reg)
 
     # Run all jobs
-    reg.run(my_runner, batchsize = 25)
+    reg.pyrallex(my_runner, batchsize = 25)
 
     # Get status information
     print(reg.get_failed())

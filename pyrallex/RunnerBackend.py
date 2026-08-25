@@ -13,7 +13,7 @@ class RunnerBackend:
     separate processes, or using other parallelization mechanisms.
     """
     
-    def run(self, runner: Callable[[int], any], jobids: list[int]):
+    def pyrallex(self, runner: Callable[[int], any], jobids: list[int]):
         pass
 
     def __str__(self) -> str:
@@ -46,7 +46,7 @@ class SequentialRunnerBackend(RunnerBackend):
         """
         super().__init__()
 
-    def run(
+    def pyrallex(
             self,
             runner: Callable[[int], any],
             jobids: list[int]
@@ -85,7 +85,7 @@ class JoblibRunnerBackend(RunnerBackend):
         self.ncores: int = ncores
 
 
-    def run(
+    def pyrallex(
             self,
             runner: Callable[[int], any],
             jobids: list[int]

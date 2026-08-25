@@ -485,7 +485,7 @@ class Registry:
         return self
 
 
-    def run(self,
+    def pyrallex(self,
             runner: Callable[[int, dict[any]], bool],
             jobids: list[int] | None = None,
             batchsize: int | None = None,
@@ -547,7 +547,7 @@ class Registry:
             
         for batch in batches:
             # Run using backend
-            results = self.backend.run(runner_wrapper, batch)
+            results = self.backend.pyrallex(runner_wrapper, batch)
 
             # NOTE: we need to do this here. Inside the wrapper we have no write-access to the jobs since they are executed in different processes
             for jobid, (status, value, time_passed) in zip(batch, results):
