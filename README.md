@@ -2,7 +2,6 @@
 # pyrallex
 
 [![PyPI](https://img.shields.io/pypi/v/pyrallex.svg)](https://pypi.python.org/pypi/pyrallex)
-![CI](https://github.com/pyrallex/pyrallex/workflows/CI/badge.svg)
 [![readthedocs](https://img.shields.io/badge/docs-stable-brightgreen.svg?style=flat)](https://pyrallex.readthedocs.io/en/stable/?badge=stable)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/pyrallex/pyrallex/branch/master/graph/badge.svg)](https://app.codecov.io/github/jakobbossek/pyrallex)
@@ -40,7 +39,6 @@ conda env create -f environment.yml
 conda activate codebase
 ```
 
-## Quickstart Example
 
 The following code (see 'examples/demo-quickstart.py') is simplified with respect to the jobs internals to showcase the key components of the library. See 'examples/demo-advanced.py' for a more involved example.
 
