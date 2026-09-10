@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyrallex"
-version = "1.0.1"
+version = "1.0.2"
 description = "A small package for PARALLel EXecution and management of computing jobs using different parallelisation backends."
 authors = [
     { name = "Jakob Bossek", email = "j.bossek@gmail.com" }
