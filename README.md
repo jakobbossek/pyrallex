@@ -2,11 +2,11 @@
 # pyrallex
 
 [![PyPI](https://img.shields.io/pypi/v/pyrallex.svg)](https://pypi.python.org/pypi/pyrallex)
-[![readthedocs](https://img.shields.io/badge/docs-stable-brightgreen.svg?style=flat)](https://pyrallex.readthedocs.io/en/stable/?badge=stable)
+[![readthedocs](https://img.shields.io/badge/docs-stable-brightgreen.svg?style=flat)](https://jakobbossek.github.io/pyrallex/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/pyrallex/pyrallex/branch/master/graph/badge.svg)](https://app.codecov.io/github/jakobbossek/pyrallex)
 
-<img src="https://github.com/jakobbossek/pyrallex/blob/main/docs/images/pyrallex-logo-512x512.png" width="30%" height="30%" alt="pyrallex python package logo" align="right">
+<img src="https://github.com/jakobbossek/pyrallex/blob/main/docs/images/pyrallex-logo.png" width="30%" height="30%" alt="pyrallex python package logo" align="right">
 
 Do you have many inherently parallel, independent computing jobs as they arise, e.g., in benchmarking of stochastic optimisation algorithms? Then **pyrallex** might be worth to consider.
 **pyrallex** is a lightweight Python library for **managing and executing parameterisable, inherently parallel computing jobs**.
@@ -27,8 +27,12 @@ The typical workflow is as follows:
 
 ## Installation
 
-The package is currently under development. At a later stage it will be available via [PyPI](https://pypi.org) (the *Python Package Index*). For the time being you can use the development version.
-You need *conda* to get it running easily. On MACs I suggest to use [homebrew 🍺](https://brew.sh) to install *miniconda*
+*pyrallex* is available via [PyPI](https://pypi.org) (the *Python Package Index*).
+```bash
+pip install pyrallex
+```
+
+You can also install the development version. I suggest to use *conda* to get it running easily. On MACs I suggest to use [homebrew 🍺](https://brew.sh) to install *miniconda*
 ```bash
 brew install --cask miniconda 
 ```
@@ -92,10 +96,9 @@ if __name__ == "__main__":
 
 ## Related work
 
-The following R packages provide some methods to generate random graphs:
-
--   [batchtools](https://pypi.org/project/batchtools/) Python-based Command Line Tools to interact with AWS Batch.
--   [batchtools for R](https://github.com/mlr-org/batchtools): The popular package for the statistical programming language R provides a parallel implementation of Map for high performance computing systems managed by schedulers like Slurm, Sun Grid Engine, OpenLava, TORQUE/OpenPBS, Load Sharing Facility (LSF) or Docker Swarm
+- [batchtools](https://pypi.org/project/batchtools/) Python-based Command Line Tools to interact with AWS Batch.
+- [schwimmbad](https://github.com/adrn/schwimmbad) Provides a uniform interface to parallel processing pools and enables switching easily between local development.
+- [batchtools for R](https://github.com/mlr-org/batchtools): The popular package for the statistical programming language R provides a parallel implementation of Map for high performance computing systems managed by schedulers like Slurm, Sun Grid Engine, OpenLava, TORQUE/OpenPBS, Load Sharing Facility (LSF) or Docker Swarm
 
 ## Contact
 
